@@ -105,13 +105,13 @@ index 000000000000..253f76b2eadb
 +		interrupt-parent = <&tlmm>;
 +		interrupts = <65 0x2008>;
 +		pinctrl-names = "gdix_ts_int_default",
-+						"gdix_ts_int_output_low",
-+						"gdix_ts_int_output_high",
-+						"gdix_ts_int_input",
-+						"gdix_ts_rst_default",
-+						"gdix_ts_rst_output_low",
-+						"gdix_ts_rst_output_high",
-+						"gdix_ts_rst_input";
++				"gdix_ts_int_output_low",
++				"gdix_ts_int_output_high",
++				"gdix_ts_int_input",
++				"gdix_ts_rst_default",
++				"gdix_ts_rst_output_low",
++				"gdix_ts_rst_output_high",
++				"gdix_ts_rst_input";
 +		pinctrl-0 = <&ts_int_default>;
 +		pinctrl-1 = <&ts_int_output_low>;
 +		pinctrl-2 = <&ts_int_output_high>;
